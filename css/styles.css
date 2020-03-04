@@ -1,3 +1,72 @@
-body {
-    background: purple;
-}
+/* Style Guide
+  * Primary Color: slategray
+  * Secondary Color: coral 
+*/
+
+/* CSS Variables */
+
+main { 
+    margin: 0 auto;
+    width: 90%;
+      
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  main img {
+  
+    grid-column: 1 / 1;
+  }
+  
+  
+  /* Mobile 
+    0 to 26em (416 pixels)
+  */
+  @media only screen and (min-width: 0) { 
+      
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Mobile Size";
+    }
+    
+  }
+  
+  /* Tablet 
+    26em (416 pixels) to 72em (1,152 pixels)
+  */
+  @media only screen and (min-width: 26em)  {
+      
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Tablet Size";
+    }
+  
+  }
+  
+  /* Desktop 
+     72em (1,152 pixels) to 90em (1440 pixels)
+  */
+  @media screen and (min-width: 72em)  { 
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Desktop Size";
+    }
+  
+  }
+  
+  /* Wide Desktop: 
+    Greater than 90em (1440px)
+  */
+  @media screen and (min-width: 90em) { 
+    
+    /* Diagnostic Styling. Delete When Done. */
+    body:before {
+         background: yellow;
+         content: "Wide Desktop Size";
+    }
+  
+  }
