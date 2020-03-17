@@ -69,7 +69,6 @@
   color: lightgrey;
   height: inherit;
   background-color: #2a4d69;
-  /*#C7665B*/
 
   transition: all 0.3s ease-in-out;
 }
@@ -205,8 +204,6 @@ h1 {
   -webkit-transition: all 0.5s ease-in-out;
 }
 #contact {
-  /*min-height: 100vh;*/
-
   margin: 100px auto 50px auto;
   width: 100%;
   text-align: center;
@@ -230,14 +227,7 @@ h1 {
   padding: 20px;
   text-align: left;
 }
-#map-canvas {
-  height: 500px;
-  max-width: 56%;
-  margin: 0 auto;
-  padding: 0px;
-  display: block;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
-}
+
 footer {
   text-align: left;
   /*height: 75px;*/
@@ -385,9 +375,8 @@ button:hover {
   .image {
     width: 90%;
   }
-  #map-canvas {
-    max-width: 90%;
-    height: 50vh;
-  }
-}
+
+
+
+
 
