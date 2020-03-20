@@ -6,9 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Form</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/contact.css">
 </head>
 <body>
 
+    <div class="nav">
+        <ul>
+          <li>
+            <a id="nav-toggle" href="#" onclick="return false;"><span>&#9776</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="favoritequote.html">Favorite Quote</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <a id="navicon" href="#" onclick="return false;"><span>&#9776</span></a>
+      <div id="container">
+        </div>
+
+<div class="contact">
     <form name="contact"
           method="POST"
           data-netlify="true"
@@ -38,7 +68,9 @@
                 <button type="submit">Send</button>
             </p>
             </form>
-              
+    </div> 
+            <!-- JS -->
+            <script src="/contact.js"></script>
     
 </body>
 </html>
