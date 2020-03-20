@@ -4,6 +4,8 @@
   font-family: "Raleway", sans-serif;
   line-height: 1.5em;
 }
+
+
 #navicon {
   background-color: rgba(255, 255, 255, 0.5);
   color: #2a4d69;
@@ -39,8 +41,7 @@
   position: fixed;
   display: inline-block;
   height: 100%;
-  z-index: 2;
-  transform: translateX(-200px);
+  transform: translateX(0px);
   transition: all 0.3s ease-in-out;
   z-index: 999;
 }
