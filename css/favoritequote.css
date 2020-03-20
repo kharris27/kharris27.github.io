@@ -11,14 +11,14 @@ main {
 }
 
 h1 {
-    font-family: 'Merienda', cursive;
+  font-family: 'Raleway', sans-serif;
     font-size: 70px;
     text-align: center;
     padding: 200px 0px 0px 150px;
 }
 
 h2 {
-    font-family: 'Merienda', cursive;
+  font-family: 'Roboto', sans-serif;
     font-size: 40px;
     margin-top: 50px;
     margin-left: 900px;
