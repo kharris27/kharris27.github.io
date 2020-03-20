@@ -1,4 +1,4 @@
-var main = function() {
+let main = function() {
     //========== START OF NAVBAR ============//
     $("#navicon").click(function() {
       $(".nav").css({
